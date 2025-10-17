@@ -1,1 +1,7 @@
-Hello there
+The undo/redo file is designed using two stacks that follow a Last in first out order.
+This makes it perfert for tracking recent user movements meaning every action performed is
+pushed into the stack. This makes undoing items really easy using the pop function and allows 
+redoing items easy as well. This is similer to what colaberative editors like google docs. 
+The help desk file is designed by using a queue system in order to track tickets. This follows
+a First in first our order That makes sure to go in order of who gets in first is served first.
+This is how most support systems operate giving fairness all around.
